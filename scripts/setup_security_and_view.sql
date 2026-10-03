@@ -35,6 +35,3 @@ GO
 
 -- # About line 33 :
 -- ON SCHEMA::dbo: The dbo (Database Owner) schema is the default folder structure where your python ingestion script just dumped the TBL_SC_FLEET_HIST_RAW table. This target applies the rules to every single table or view currently inside dbo, or any tables you might add there in the future.
-
--- SELECT * FROM dbo.TBL_SC_FLEET_HIST_RAW;
--- SELECT count(*) FROM dbo.TBL_SC_FLEET_HIST_RAW;

@@ -26,9 +26,9 @@ load_dotenv(project_root / ".env")
 class AgentState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
-# ==============================================
+# ==========================================
 # 2. FACTORY INITIALIZATION: AGENT REASONER LLM
-# ==============================================
+# ==========================================
 
 AGENT_LLM_SETTING = os.getenv("Agent_llm", "OLLAMA").strip().upper()
 
